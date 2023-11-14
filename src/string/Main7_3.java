@@ -18,7 +18,5 @@ public class Main7_3 {
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
-
-
     }
 }
