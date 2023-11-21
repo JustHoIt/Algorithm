@@ -8,12 +8,12 @@ public class Main9_1 {
     public int count(int[] arr, int capacity) {
         int cnt = 1; //dvd 장수 무조건 1장은 필요함
         int sum = 0;
-        for (int x: arr) {
-            if(sum + x > capacity){
+        for (int x : arr) {
+            if (sum + x > capacity) {
                 cnt++;
                 sum = x;
 
-            }else {
+            } else {
                 sum += x;
             }
         }

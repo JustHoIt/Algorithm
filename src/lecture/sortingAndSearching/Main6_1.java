@@ -26,9 +26,9 @@ public class Main6_1 {
         for (int i = 0; i < N; i++) {
             nums[i] = sc.nextInt();
         }
-        for (int x:T.solution(nums)
-             ) {
-            System.out.print(x +" ");
+        for (int x : T.solution(nums)
+        ) {
+            System.out.print(x + " ");
         }
     }
 }

@@ -12,13 +12,13 @@ public class Main8_1 {
         int rt = nums.length - 1;
         while (lt <= rt) {
             int mid = (lt + rt) / 2;
-            if(nums[mid] == M){
+            if (nums[mid] == M) {
                 answer = mid + 1;
                 break;
             }
-            if(nums[mid] > M){
-                rt = mid -1;
-            }else {
+            if (nums[mid] > M) {
+                rt = mid - 1;
+            } else {
                 lt = mid + 1;
             }
         }

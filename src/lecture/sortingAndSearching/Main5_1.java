@@ -2,13 +2,14 @@ package lecture.sortingAndSearching;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 /*중복 확인 (정렬로 풀기)*/
 public class Main5_1 {
     public String solutions(int N, int[] nums) {
         String answer = "U";
         Arrays.sort(nums);
         for (int i = 0; i < N - 1; i++) {
-            if(nums[i] == nums[i+1]){
+            if (nums[i] == nums[i + 1]) {
                 return "D";
             }
         }

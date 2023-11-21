@@ -10,17 +10,17 @@ public class Main4_1 {
         for (int x : nums) {
             int p = -1;
             for (int i = 0; i < S; i++) {
-                if(x == cache[i]){
+                if (x == cache[i]) {
                     p = i;
                 }
             }
-            if(p == -1){
-                for (int i = S-1; i >= 1; i--) {
-                    cache[i] = cache[i -1];
+            if (p == -1) {
+                for (int i = S - 1; i >= 1; i--) {
+                    cache[i] = cache[i - 1];
                 }
-            }else {
+            } else {
                 for (int i = p; i >= 1; i--) {
-                    cache[i] = cache[i -1];
+                    cache[i] = cache[i - 1];
                 }
             }
             cache[0] = x;
