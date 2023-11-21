@@ -20,7 +20,7 @@ public class Main {
             nums[i] = sc.nextInt();
         }
         for (int x : T.solutions(nums)) {
-            System.out.print(x+ " ");
+            System.out.print(x + " ");
         }
     }
 }

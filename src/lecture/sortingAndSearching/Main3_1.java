@@ -5,17 +5,17 @@ import java.util.Scanner;
 /*삽입 정렬*/
 public class Main3_1 {
     public int[] solution(int[] nums) {
-        for (int i = 1; i < nums.length ; i++) {
+        for (int i = 1; i < nums.length; i++) {
             int tmp = nums[i];
-            int j =0;
+            int j = 0;
             for (j = i - 1; j >= 0; j--) {
                 if (nums[j] > tmp) {
-                   nums[j+1] = nums[j];
-                }else {
+                    nums[j + 1] = nums[j];
+                } else {
                     break;
                 }
             }
-            nums[j+1] = tmp;
+            nums[j + 1] = tmp;
         }
         return nums;
     }
