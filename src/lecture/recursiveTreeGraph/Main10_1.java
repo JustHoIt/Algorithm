@@ -12,17 +12,17 @@ public class Main10_1 {
         Queue<Node> Q = new LinkedList<>();
         Q.offer(root);
         int L = 0;
-        while (!Q.isEmpty()){
+        while (!Q.isEmpty()) {
             int len = Q.size();
-            for (int i = 0; i < len ; i++) {
+            for (int i = 0; i < len; i++) {
                 Node cur = Q.poll();
-                if(cur.lt == null && cur.rt == null){
+                if (cur.lt == null && cur.rt == null) {
                     return L;
                 }
-                if(cur.lt != null){
+                if (cur.lt != null) {
                     Q.offer(cur.lt);
                 }
-                if(cur.lt != null){
+                if (cur.lt != null) {
                     Q.offer(cur.rt);
                 }
             }
