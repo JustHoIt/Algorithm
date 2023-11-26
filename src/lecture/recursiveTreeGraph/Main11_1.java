@@ -12,10 +12,10 @@ public class Main11_1 {
     public void DFS(int v) {
         if (v == N) {
             answer++;
-        }else {
-            for (int i = 1; i <= N ; i++) {
-                if(graph[v][i] == 1 && ch[i] ==0){
-                    ch[i]=1;
+        } else {
+            for (int i = 1; i <= N; i++) {
+                if (graph[v][i] == 1 && ch[i] == 0) {
+                    ch[i] = 1;
                     DFS(i);
                     ch[i] = 0; //백 한다면 check 0으로 하기
                 }
