@@ -1,6 +1,6 @@
 package lecture.recursiveTreeGraph;
 
-/* Tree 말단 노드 까지의 가장 짧은 경로(BFS)*/
+/* 입전 행렬 그래프 경로 탐색 (DFS)*/
 
 import java.util.Scanner;
 
