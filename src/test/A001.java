@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
 import java.util.Scanner;
 
-/*1월 1일의 요일을 입력 받은 뒤 그 해의 주말 개수 구하기*/
+/* 주말 개수 구하기*/
 public class A001 {
     public int holidayCount(int N) {
         int count = 0;
