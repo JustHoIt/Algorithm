@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
+/* 씨름선수*/
 class Body implements Comparable<Body> {
     public int h, w;
 
